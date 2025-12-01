@@ -10,7 +10,7 @@ of:
 
 **Web Development --- Lab Assignment 3 (CSS Advanced)**\
 **Author (HTML): Ayush Goyal --- Roll No.: 2501730281**\
-**Author (CSS): Sansar Kumar --- Roll No.: 2501350055**
+**Author (CSS): Ayush Goyal --- Roll No.: 2501730281**
 
 ------------------------------------------------------------------------
 
