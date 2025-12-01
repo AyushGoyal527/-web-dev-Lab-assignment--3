@@ -1,0 +1,242 @@
+<!--  Web Development - Lab Assignment 3
+   Responsive Personal Portfolio Website(CSS Advance)
+   Author: Ayush Goyal
+   Roll no.: 2501730281-->
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ayush Goyal — Portfolio (Neon Dark)</title>
+  <link rel="stylesheet" href="./try.css" />
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <h1>Ayush <span class="accent">Goyal</span></h1>
+        <p class="tag">Student • Web Developer • Problem Solver</p>
+      </div>
+    
+      <nav class="nav">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link cta">Contact</a>
+      </nav>
+    </div>
+
+    
+    <div class="header-gradient" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    
+    <section id="hero" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h2 class="eyebrow">Hello, I’m</h2>
+          <h3 class="hero-name">Ayush <span class="accent-glow">Goyal</span></h3>
+          <p class="lead">
+            I build responsive, accessible websites using modern HTML & CSS.
+            This portfolio demonstrates layout, animations and advanced CSS techniques.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn neon">View Projects</a>
+            <a href="#contact" class="btn ghost">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-visual">
+            
+            <div class="avatar photo">
+             <img src="WhatsApp Image 2025-12-01 at 4.20.11 PM.jpeg"
+              alt="Profile photo of Ayush Goyal">
+            </div>
+            <h3 class="profile-name">Ayush Goyal</h3>
+            <p class="small muted">B.Tech — Computer Science</p>3
+          </div>
+        </div>
+      </div>
+
+
+      <svg class="shape-divider" viewBox="0 0 1200 100" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,0 C300,80 900,0 1200,60 L1200,100 L0,100 Z" />
+      </svg>
+    </section>
+
+    
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2 class="section-title">About</h2>
+        <p class="section-lead">
+          I am a web development student focused on building clean and responsive web pages,
+          improving accessibility, and learning modern CSS layouts , animations and java.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h4>Focus</h4>
+            <p>HTML5, CSS3, Responsive Layouts, Git, Problem Solving</p>
+          </div>
+          <div class="about-card">
+            <h4>Education</h4>
+            <p>K.R. Mangalam University — B.Tech CSE (Ongoing)</p>
+          </div>
+          <div class="about-card">
+            <h4>Interests</h4>
+            <p>UI Design, Frontend Patterns, Clean Code</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="skills" class="section alt">
+  <div class="wrap">
+    <h2 class="section-title">Skills</h2>
+    <p class="section-lead">My core technical frontend skills</p>
+
+    <div class="simple-skills-grid">
+
+      <div class="skill-card neon-card">
+        <h3>Frontend</h3>
+        <ul class="simple-skill-list">
+          <li>
+            <span>HTML (Advanced)</span>
+          </li>
+          <li>
+            <span>CSS (Advanced)</span>
+          </li>
+          <li>
+            <span>JavaScript (Basics)</span>
+          </li>
+          <li>
+            <span>Python (Intermediate)</span>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    </div>
+  </div>
+</section>
+       
+    <section id="projects" class="section alt">
+    <div class="wrap">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-lead">A few selected works — clean & responsive design</p>
+
+    <div class="projects-grid simple-projects">
+
+      <article class="project-card neon-card">
+        <h3>Portfolio Website</h3>
+        <p>Modern, responsive portfolio using Grid, Flexbox & animations.</p>
+        <ul>
+          <li>Responsive layout</li>
+          <li>CSS animations</li>
+          <li>Accessible design</li>
+        </ul>
+      </article>
+
+      <article class="project-card neon-card">
+        <h3>Daily calories Tracker</h3>
+        <p>This project helps users track their daily calorie intake with a responsive design.</p>
+        <ul>
+          <li>Track daily calorie intake</li>
+          <li>Responsive design</li>
+        </ul>
+      </article>
+
+      <article class="project-card neon-card">
+        <h3>GradeBook Analyzer</h3>
+        <p>This module provides functionalities to read student marks, analyze statistics,
+assign grades, and display results in a formatted table.</p>
+        <ul>
+          <li>Read student marks from a file</li>
+          <li>Calculate statistics (average, highest, lowest)</li>
+          <li>Assign grades based on marks</li>
+          <li>Display results in a formatted table</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+    
+    <section id="contact" class="section alt">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-lead">For lab submissions or project enquiries — message below</p>
+          
+          <form class="contact-form" action="#" method="post" novalidate>
+            <label>
+              <span class="label">Name</span>
+              <input type="text" name="name" required>
+            </label>
+
+            <label>
+              <span class="label">Email</span>
+              <input type="email" name="email" required>
+            </label>
+
+            <label>
+              <span class="label">Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="btn neon" type="submit">Send (Demo)</button>
+              <a href="Resumelab3.pdf" class="btn ghost" download>Download CV</a>
+            </div>
+          </form>
+        </div>
+
+        <aside>
+          <div class="contact-card neon-card">
+            <h3>Connect with me</h3>
+            <p>Feel free to reach out via email or through my social media profiles.</p>
+            <p></p>
+            <div class="social-links">
+  <a href="" target="_blank" class="social-btn">
+    GitHub
+  </a><br>
+  <a href = ""target="_blank" class="social-btn">
+    LinkedIn
+  </a><br>
+  <a href="mailto:ayushgoyal527@gmail.com" target="_blank" class="social-btn">
+    Email
+  </a><br>
+</div>
+</p>
+ 
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2025 Ayush Goyal — Lab Assignment Submission</p>
+      <nav class="footer-nav">
+        <a href="#hero">Top</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </footer>
+  <a href="#contact" class="floating" aria-label="Contact">✉</a>
+</body>
+</html> 
