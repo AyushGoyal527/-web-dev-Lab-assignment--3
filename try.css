@@ -1,8 +1,8 @@
 /*
    Web Development - Lab Assignment 3
    Responsive Personal Portfolio Website(CSS Advance)
-   Author: Sansar Kumar
-   Roll no.: 2501350055
+   Author: Ayush Goyal
+   Roll no.: 2501730281
 */
 
 :root{
@@ -360,4 +360,5 @@ a:focus, button:focus, input:focus, textarea:focus{
   color: #031027;
   transform: translateY(-4px);
   box-shadow: 0 10px 30px rgba(122, 91, 255, 0.2);
+
 }
